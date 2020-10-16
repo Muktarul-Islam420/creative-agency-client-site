@@ -7,8 +7,8 @@ import Login from './components/Login/Login';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import * as firebase from "firebase/app";
-import { firebaseConfig } from './components/Login/firebaseConfig';
 import Navbar from './components/Home/Header/Navbar/Navbar';
+import firebaseConfig from './components/Login/firebaseConfig';
 
 export const UserContext = createContext();
 
@@ -16,7 +16,7 @@ function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
 
   if (firebase.apps.length === 0) {
-    firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig );
   }
   useEffect(() => { 
     firebase.auth().onAuthStateChanged(function (user) {

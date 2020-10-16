@@ -3,8 +3,8 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import './Login.css';
 import * as firebase from "firebase/app";
 import { UserContext } from '../../App';
-import { firebaseConfig } from './firebaseConfig';
 import "firebase/auth";
+import firebaseConfig from './firebaseConfig';
 
 const Login = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -40,13 +40,14 @@ const Login = () => {
                         <div className="login-div mt-5 border text-center">
                             <div className="login-btn ">
                                 <h3 className="mb-3">Login With</h3>
-                                <div className="form-control social-btn ml-3 m-2" onClick={handleGoogleSignIn}>
+                                <br/>
+                                <div className="form-control social-btn ml-5 m-2 " onClick={handleGoogleSignIn}>
                                     <div className="d-flex">
                                         <div className="">
                                             <img src="https://i.ibb.co/QcGGmpK/google.png" alt="google" className="img img-fluid social-img text-left" />
                                         </div>
                                         <div className="text-margin">
-                                            <p className="">Continue with Google</p>
+                                            <p className="text-light "><i>Continue with Google</i></p>
                                         </div>
                                     </div>
                                 </div>
