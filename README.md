@@ -28,11 +28,11 @@ Logo
 
 ## Features
 #### This application provides feature 
-##### Creative web development
-##### Web & Mobile design features
-##### Graphic Design
-##### Android application development
-##### IOS application development
+##### Full-Stack web app, you have hassle free google sign in method.
+##### An authenticated user can order his/her desired services.
+##### Admin Dashboard/ User Dashboard.(Role detection base on email)
+##### User review system.
+##### Admin can create new service and he can be monitoring order status.
 
 ## Screenshot
 
@@ -51,10 +51,10 @@ $ npm start
 #### See details about me
 [Facebook](https://www.facebook.com/md.muktarulkhanakash)
 
-[Resume](https://drive.google.com/file/d/1X41QFDHFr8z2XFRPJzVo7Acig-WDUTkM/view)
+[Resume](https://drive.google.com/file/d/1DT1fDqtNxLNr6ZZnVaXL6eH0kI7vvlAW/view?usp=sharing)
 
 [LinkedIn](https://www.linkedin.com/in/muktarul-khan-akash-r/)
 
 [Github](https://github.com/Muktarul-Islam420)
 
-[Portfolio](https://www.linkedin.com/in/muktarul-khan-akash-r/)
+[Portfolio](https://muktarul.netlify.app/)
